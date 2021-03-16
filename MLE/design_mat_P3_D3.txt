@@ -1,0 +1,5 @@
+Samples	baseline	P3_F2.fq	P3_F3.fq	P3_F4.fq
+P3_F1.fq	1	0	0	0
+P3_F2.fq	1	1	0	0
+P3_F3.fq	1	0	1	0
+P3_F4.fq	1	0	0	1

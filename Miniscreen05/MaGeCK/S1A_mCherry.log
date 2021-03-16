@@ -1,0 +1,62 @@
+INFO  @ Tue, 16 Feb 2021 11:56:42: Parameters: /opt/anaconda3/bin/mageck mle -k S1A.txt -d S1A_mCherry_design_matrix.txt -n S1A_mCherry 
+INFO  @ Tue, 16 Feb 2021 11:56:42: Cannot parse design matrix as a string; try to parse it as a file name ... 
+INFO  @ Tue, 16 Feb 2021 11:56:42: Design matrix: 
+INFO  @ Tue, 16 Feb 2021 11:56:42: [[1. 0. 0. 0.] 
+INFO  @ Tue, 16 Feb 2021 11:56:42:  [1. 1. 0. 0.] 
+INFO  @ Tue, 16 Feb 2021 11:56:42:  [1. 0. 1. 0.] 
+INFO  @ Tue, 16 Feb 2021 11:56:42:  [1. 0. 0. 1.]] 
+INFO  @ Tue, 16 Feb 2021 11:56:42: Beta labels:baseline,S01_MNSC501_F1,S03_MNSC501_F3,S04_MNSC501_F4 
+INFO  @ Tue, 16 Feb 2021 11:56:42: Included samples:S02_MNSC501_F2,S01_MNSC501_F1,S03_MNSC501_F3,S04_MNSC501_F4 
+INFO  @ Tue, 16 Feb 2021 11:56:42: Loaded samples:S02_MNSC501_F2;S01_MNSC501_F1;S03_MNSC501_F3;S04_MNSC501_F4 
+INFO  @ Tue, 16 Feb 2021 11:56:42: Sample index: 1;0;2;3 
+INFO  @ Tue, 16 Feb 2021 11:56:42: Loaded 11 genes. 
+DEBUG @ Tue, 16 Feb 2021 11:56:42: Initial (total) size factor: 1.215929238149867 0.7269910676705794 1.0466866117839284 1.1811183657343154 
+DEBUG @ Tue, 16 Feb 2021 11:56:42: Median factor: 1.9178581720918029 0.46929997346146357 1.0165856668523399 1.1150406977641596 
+INFO  @ Tue, 16 Feb 2021 11:56:42: Final size factor: 1.9178581720918029 0.46929997346146357 1.0165856668523399 1.1150406977641596 
+INFO  @ Tue, 16 Feb 2021 11:56:42: size factor: 0.5214149901967478,2.1308332762608067,0.9836849294721082,0.8968282521034119 
+INFO  @ Tue, 16 Feb 2021 11:56:43: Thread 0 started. 
+INFO  @ Tue, 16 Feb 2021 11:56:43: Thread 0 completed. 
+INFO  @ Tue, 16 Feb 2021 11:56:43: All threads completed. 
+INFO  @ Tue, 16 Feb 2021 11:56:44: Modeling the mean and variance ... 
+INFO  @ Tue, 16 Feb 2021 11:56:44: Run the algorithm for the second time ... 
+INFO  @ Tue, 16 Feb 2021 11:56:44: Thread 0 started. 
+INFO  @ Tue, 16 Feb 2021 11:56:45: Thread 0 completed. 
+INFO  @ Tue, 16 Feb 2021 11:56:45: All threads completed. 
+INFO  @ Tue, 16 Feb 2021 11:56:45: Permuting groups of gene with 1 sgRNAs per gene. Group progress: 1/3 
+INFO  @ Tue, 16 Feb 2021 11:56:45: Start permuting 2 rounds ... 
+INFO  @ Tue, 16 Feb 2021 11:56:45: Collecting 77 sgRNAs from 11 genes. 
+INFO  @ Tue, 16 Feb 2021 11:56:45: Permuting round 0 ... 
+INFO  @ Tue, 16 Feb 2021 11:56:45: Thread 0 started. 
+INFO  @ Tue, 16 Feb 2021 11:56:46: Thread 0 completed. 
+INFO  @ Tue, 16 Feb 2021 11:56:46: All threads completed. 
+INFO  @ Tue, 16 Feb 2021 11:56:46: Permuting round 1 ... 
+INFO  @ Tue, 16 Feb 2021 11:56:46: Thread 0 started. 
+INFO  @ Tue, 16 Feb 2021 11:56:47: Thread 0 completed. 
+INFO  @ Tue, 16 Feb 2021 11:56:47: All threads completed. 
+INFO  @ Tue, 16 Feb 2021 11:56:47: Assigning p values... 
+INFO  @ Tue, 16 Feb 2021 11:56:47: Permuting groups of gene with 6 sgRNAs per gene. Group progress: 2/3 
+INFO  @ Tue, 16 Feb 2021 11:56:47: Start permuting 2 rounds ... 
+INFO  @ Tue, 16 Feb 2021 11:56:47: Collecting 77 sgRNAs from 11 genes. 
+INFO  @ Tue, 16 Feb 2021 11:56:47: Permuting round 0 ... 
+INFO  @ Tue, 16 Feb 2021 11:56:47: Thread 0 started. 
+INFO  @ Tue, 16 Feb 2021 11:56:48: Thread 0 completed. 
+INFO  @ Tue, 16 Feb 2021 11:56:48: All threads completed. 
+INFO  @ Tue, 16 Feb 2021 11:56:48: Permuting round 1 ... 
+INFO  @ Tue, 16 Feb 2021 11:56:48: Thread 0 started. 
+INFO  @ Tue, 16 Feb 2021 11:56:49: Thread 0 completed. 
+INFO  @ Tue, 16 Feb 2021 11:56:49: All threads completed. 
+INFO  @ Tue, 16 Feb 2021 11:56:49: Assigning p values... 
+INFO  @ Tue, 16 Feb 2021 11:56:49: Permuting groups of gene with 10 sgRNAs per gene. Group progress: 3/3 
+INFO  @ Tue, 16 Feb 2021 11:56:49: Start permuting 2 rounds ... 
+INFO  @ Tue, 16 Feb 2021 11:56:49: Collecting 77 sgRNAs from 11 genes. 
+INFO  @ Tue, 16 Feb 2021 11:56:49: Permuting round 0 ... 
+INFO  @ Tue, 16 Feb 2021 11:56:50: Thread 0 started. 
+INFO  @ Tue, 16 Feb 2021 11:56:50: Thread 0 completed. 
+INFO  @ Tue, 16 Feb 2021 11:56:50: All threads completed. 
+INFO  @ Tue, 16 Feb 2021 11:56:50: Permuting round 1 ... 
+INFO  @ Tue, 16 Feb 2021 11:56:51: Thread 0 started. 
+INFO  @ Tue, 16 Feb 2021 11:56:51: Thread 0 completed. 
+INFO  @ Tue, 16 Feb 2021 11:56:51: All threads completed. 
+INFO  @ Tue, 16 Feb 2021 11:56:51: Assigning p values... 
+INFO  @ Tue, 16 Feb 2021 11:56:51: Writing gene results to S1A_mCherry.gene_summary.txt 
+INFO  @ Tue, 16 Feb 2021 11:56:51: Writing sgRNA results to S1A_mCherry.sgrna_summary.txt 

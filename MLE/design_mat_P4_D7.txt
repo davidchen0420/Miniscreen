@@ -1,0 +1,5 @@
+Samples	baseline	P4_F6.fq	P4_F7.fq	P4_F8.fq
+P4_F5.fq	1	0	0	0
+P4_F6.fq	1	1	0	0
+P4_F7.fq	1	0	1	0
+P4_F8.fq	1	0	0	1

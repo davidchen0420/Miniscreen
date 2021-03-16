@@ -1,0 +1,62 @@
+INFO  @ Tue, 16 Feb 2021 13:31:14: Parameters: /opt/anaconda3/bin/mageck mle -k S8A.txt -d S8A_design_matrix.txt -n S8A 
+INFO  @ Tue, 16 Feb 2021 13:31:15: Cannot parse design matrix as a string; try to parse it as a file name ... 
+INFO  @ Tue, 16 Feb 2021 13:31:15: Design matrix: 
+INFO  @ Tue, 16 Feb 2021 13:31:15: [[1. 0. 0. 0.] 
+INFO  @ Tue, 16 Feb 2021 13:31:15:  [1. 1. 0. 0.] 
+INFO  @ Tue, 16 Feb 2021 13:31:15:  [1. 0. 1. 0.] 
+INFO  @ Tue, 16 Feb 2021 13:31:15:  [1. 0. 0. 1.]] 
+INFO  @ Tue, 16 Feb 2021 13:31:15: Beta labels:baseline,S58_MNSC508_F2,S59_MNSC508_F3,S60_MNSC508_F4 
+INFO  @ Tue, 16 Feb 2021 13:31:15: Included samples:S57_MNSC508_F1,S58_MNSC508_F2,S59_MNSC508_F3,S60_MNSC508_F4 
+INFO  @ Tue, 16 Feb 2021 13:31:15: Loaded samples:S57_MNSC508_F1;S58_MNSC508_F2;S59_MNSC508_F3;S60_MNSC508_F4 
+INFO  @ Tue, 16 Feb 2021 13:31:15: Sample index: 0;1;2;3 
+INFO  @ Tue, 16 Feb 2021 13:31:15: Loaded 11 genes. 
+DEBUG @ Tue, 16 Feb 2021 13:31:15: Initial (total) size factor: 0.9489630212944791 0.9978012879090141 0.9005072113057787 1.1997178390702616 
+DEBUG @ Tue, 16 Feb 2021 13:31:15: Median factor: 0.797423180156864 0.8435244343120326 1.02966842521189 1.439395058945401 
+INFO  @ Tue, 16 Feb 2021 13:31:15: Final size factor: 0.797423180156864 0.8435244343120326 1.02966842521189 1.439395058945401 
+INFO  @ Tue, 16 Feb 2021 13:31:15: size factor: 1.2540392916635386,1.185502113896187,0.9711864280913687,0.6947363017437813 
+INFO  @ Tue, 16 Feb 2021 13:31:15: Thread 0 started. 
+INFO  @ Tue, 16 Feb 2021 13:31:16: Thread 0 completed. 
+INFO  @ Tue, 16 Feb 2021 13:31:16: All threads completed. 
+INFO  @ Tue, 16 Feb 2021 13:31:16: Modeling the mean and variance ... 
+INFO  @ Tue, 16 Feb 2021 13:31:16: Run the algorithm for the second time ... 
+INFO  @ Tue, 16 Feb 2021 13:31:16: Thread 0 started. 
+INFO  @ Tue, 16 Feb 2021 13:31:17: Thread 0 completed. 
+INFO  @ Tue, 16 Feb 2021 13:31:17: All threads completed. 
+INFO  @ Tue, 16 Feb 2021 13:31:17: Permuting groups of gene with 1 sgRNAs per gene. Group progress: 1/3 
+INFO  @ Tue, 16 Feb 2021 13:31:17: Start permuting 2 rounds ... 
+INFO  @ Tue, 16 Feb 2021 13:31:17: Collecting 77 sgRNAs from 11 genes. 
+INFO  @ Tue, 16 Feb 2021 13:31:17: Permuting round 0 ... 
+INFO  @ Tue, 16 Feb 2021 13:31:17: Thread 0 started. 
+INFO  @ Tue, 16 Feb 2021 13:31:18: Thread 0 completed. 
+INFO  @ Tue, 16 Feb 2021 13:31:18: All threads completed. 
+INFO  @ Tue, 16 Feb 2021 13:31:18: Permuting round 1 ... 
+INFO  @ Tue, 16 Feb 2021 13:31:19: Thread 0 started. 
+INFO  @ Tue, 16 Feb 2021 13:31:19: Thread 0 completed. 
+INFO  @ Tue, 16 Feb 2021 13:31:19: All threads completed. 
+INFO  @ Tue, 16 Feb 2021 13:31:19: Assigning p values... 
+INFO  @ Tue, 16 Feb 2021 13:31:19: Permuting groups of gene with 6 sgRNAs per gene. Group progress: 2/3 
+INFO  @ Tue, 16 Feb 2021 13:31:19: Start permuting 2 rounds ... 
+INFO  @ Tue, 16 Feb 2021 13:31:19: Collecting 77 sgRNAs from 11 genes. 
+INFO  @ Tue, 16 Feb 2021 13:31:19: Permuting round 0 ... 
+INFO  @ Tue, 16 Feb 2021 13:31:20: Thread 0 started. 
+INFO  @ Tue, 16 Feb 2021 13:31:21: Thread 0 completed. 
+INFO  @ Tue, 16 Feb 2021 13:31:21: All threads completed. 
+INFO  @ Tue, 16 Feb 2021 13:31:21: Permuting round 1 ... 
+INFO  @ Tue, 16 Feb 2021 13:31:21: Thread 0 started. 
+INFO  @ Tue, 16 Feb 2021 13:31:22: Thread 0 completed. 
+INFO  @ Tue, 16 Feb 2021 13:31:22: All threads completed. 
+INFO  @ Tue, 16 Feb 2021 13:31:22: Assigning p values... 
+INFO  @ Tue, 16 Feb 2021 13:31:22: Permuting groups of gene with 10 sgRNAs per gene. Group progress: 3/3 
+INFO  @ Tue, 16 Feb 2021 13:31:22: Start permuting 2 rounds ... 
+INFO  @ Tue, 16 Feb 2021 13:31:22: Collecting 77 sgRNAs from 11 genes. 
+INFO  @ Tue, 16 Feb 2021 13:31:22: Permuting round 0 ... 
+INFO  @ Tue, 16 Feb 2021 13:31:22: Thread 0 started. 
+INFO  @ Tue, 16 Feb 2021 13:31:23: Thread 0 completed. 
+INFO  @ Tue, 16 Feb 2021 13:31:23: All threads completed. 
+INFO  @ Tue, 16 Feb 2021 13:31:23: Permuting round 1 ... 
+INFO  @ Tue, 16 Feb 2021 13:31:24: Thread 0 started. 
+INFO  @ Tue, 16 Feb 2021 13:31:24: Thread 0 completed. 
+INFO  @ Tue, 16 Feb 2021 13:31:24: All threads completed. 
+INFO  @ Tue, 16 Feb 2021 13:31:25: Assigning p values... 
+INFO  @ Tue, 16 Feb 2021 13:31:25: Writing gene results to S8A.gene_summary.txt 
+INFO  @ Tue, 16 Feb 2021 13:31:25: Writing sgRNA results to S8A.sgrna_summary.txt 

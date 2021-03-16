@@ -1,0 +1,72 @@
+INFO  @ Sat, 13 Mar 2021 20:59:34: Parameters: /opt/anaconda3/bin/mageck test -k S1B.txt -t 3 -c 1 -n S1B_c1_t3 --norm-method total --sort-criteria pos 
+INFO  @ Sat, 13 Mar 2021 20:59:34: Welcome to MAGeCK v0.5.9.4. Command: test 
+INFO  @ Sat, 13 Mar 2021 20:59:34: Loading count table from S1B.txt  
+INFO  @ Sat, 13 Mar 2021 20:59:34: Processing 1 lines.. 
+DEBUG @ Sat, 13 Mar 2021 20:59:34: Parsing error in line 1 (usually the header line). Skip this line. 
+INFO  @ Sat, 13 Mar 2021 20:59:34: Loaded 76 records. 
+INFO  @ Sat, 13 Mar 2021 20:59:34: Loading Rnw template file: /opt/anaconda3/lib/python3.8/site-packages/mageck/test_report.Rmd. 
+DEBUG @ Sat, 13 Mar 2021 20:59:34: Setting up the visualization module... 
+INFO  @ Sat, 13 Mar 2021 20:59:34: Loading R template file: /opt/anaconda3/lib/python3.8/site-packages/mageck/plot_template.RTemplate. 
+INFO  @ Sat, 13 Mar 2021 20:59:34: Loading R template file: /opt/anaconda3/lib/python3.8/site-packages/mageck/plot_template_indvgene.RTemplate. 
+INFO  @ Sat, 13 Mar 2021 20:59:34: Loading Rnw template file: /opt/anaconda3/lib/python3.8/site-packages/mageck/plot_template.Rnw. 
+DEBUG @ Sat, 13 Mar 2021 20:59:34: Setting up the visualization module... 
+DEBUG @ Sat, 13 Mar 2021 20:59:34: Given sample labels: 3 
+DEBUG @ Sat, 13 Mar 2021 20:59:34: Converted index: 3 
+INFO  @ Sat, 13 Mar 2021 20:59:34: Treatment samples:3 
+INFO  @ Sat, 13 Mar 2021 20:59:34: Treatment sample index:3 
+DEBUG @ Sat, 13 Mar 2021 20:59:34: Given sample labels: 1 
+DEBUG @ Sat, 13 Mar 2021 20:59:34: Converted index: 1 
+INFO  @ Sat, 13 Mar 2021 20:59:34: Control samples:1 
+INFO  @ Sat, 13 Mar 2021 20:59:34: Control sample index:1 
+DEBUG @ Sat, 13 Mar 2021 20:59:34: Initial (total) size factor: 0.8260828086243084 1.2666764189584552 
+INFO  @ Sat, 13 Mar 2021 20:59:34: Final size factor: 0.8260828086243084 1.2666764189584552 
+INFO  @ Sat, 13 Mar 2021 20:59:34: Detecting outliers from variance estimation.. Avg read count:[789.4372870279782], Var: [485085.6215472972] 
+INFO  @ Sat, 13 Mar 2021 20:59:34: Skipping 1 sgRNAs from variance calculation because of their extreme high counts (> 4* STD (mean counts) ). 
+DEBUG @ Sat, 13 Mar 2021 20:59:34: Adjusted model: 1.2452119227891965	1.1917211284624465 
+INFO  @ Sat, 13 Mar 2021 20:59:34: Before RRA, 0 sgRNAs are removed with zero counts in both group(s). 
+INFO  @ Sat, 13 Mar 2021 20:59:34: Use qnorm to reversely calculate sgRNA scores ... 
+DEBUG @ Sat, 13 Mar 2021 20:59:34: lower test FDR cutoff: 0.47368421052631576 
+DEBUG @ Sat, 13 Mar 2021 20:59:34: higher test FDR cutoff: 0.19736842105263158 
+INFO  @ Sat, 13 Mar 2021 20:59:34: Running command: RRA -i S1B_c1_t3.plow.txt -o S1B_c1_t3.gene.low.txt -p 0.47368421052631576 --skip-gene NA --skip-gene na  
+INFO  @ Sat, 13 Mar 2021 20:59:34: Command message: 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   Welcome to RRA v 0.5.9. 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   Skipping gene NA for permutation ... 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   Skipping gene na for permutation ... 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   Reading input file... 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   Summary: 76 sgRNAs, 10 genes, 1 lists; skipped sgRNAs:0 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   Computing lo-values for each group... 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   Computing false discovery rate... 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   Increase the number of permutations to 10001 to get precise p values. To avoid this, use the --permutation option. 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   Permuting genes with 6 sgRNAs... 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   Permuting genes with 10 sgRNAs... 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   Number of genes under FDR adjustment: 10 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   Saving to output file... 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   RRA completed. 
+INFO  @ Sat, 13 Mar 2021 20:59:34:    
+INFO  @ Sat, 13 Mar 2021 20:59:34: End command message. 
+INFO  @ Sat, 13 Mar 2021 20:59:34: Running command: RRA -i S1B_c1_t3.phigh.txt -o S1B_c1_t3.gene.high.txt -p 0.19736842105263158 --skip-gene NA --skip-gene na  
+INFO  @ Sat, 13 Mar 2021 20:59:34: Command message: 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   Welcome to RRA v 0.5.9. 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   Skipping gene NA for permutation ... 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   Skipping gene na for permutation ... 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   Reading input file... 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   Summary: 76 sgRNAs, 10 genes, 1 lists; skipped sgRNAs:0 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   Computing lo-values for each group... 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   Computing false discovery rate... 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   Increase the number of permutations to 10001 to get precise p values. To avoid this, use the --permutation option. 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   Permuting genes with 6 sgRNAs... 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   Permuting genes with 10 sgRNAs... 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   Number of genes under FDR adjustment: 10 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   Saving to output file... 
+INFO  @ Sat, 13 Mar 2021 20:59:34:   RRA completed. 
+INFO  @ Sat, 13 Mar 2021 20:59:34:    
+INFO  @ Sat, 13 Mar 2021 20:59:34: End command message. 
+DEBUG @ Sat, 13 Mar 2021 20:59:34: Sorting the merged items by positive selection... 
+INFO  @ Sat, 13 Mar 2021 20:59:34: Loading top 10 genes from S1B_c1_t3.gene.low.txt: LRIG1,ROSA26,CTRL,PROM1,CCR5,AAVS1,mKate2,KRT20,EGFP,SOX9 
+DEBUG @ Sat, 13 Mar 2021 20:59:34: Column index:3 
+INFO  @ Sat, 13 Mar 2021 20:59:34: Loading top 10 genes from S1B_c1_t3.gene.high.txt: SOX9,EGFP,CCR5,AAVS1,KRT20,CTRL,PROM1,mKate2,ROSA26,LRIG1 
+DEBUG @ Sat, 13 Mar 2021 20:59:34: Column index:9 
+INFO  @ Sat, 13 Mar 2021 20:59:34: Running command: rm S1B_c1_t3.plow.txt 
+INFO  @ Sat, 13 Mar 2021 20:59:34: Running command: rm S1B_c1_t3.phigh.txt 
+INFO  @ Sat, 13 Mar 2021 20:59:34: Running command: rm S1B_c1_t3.gene.low.txt 
+INFO  @ Sat, 13 Mar 2021 20:59:34: Running command: rm S1B_c1_t3.gene.high.txt 

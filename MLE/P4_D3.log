@@ -1,0 +1,50 @@
+INFO  @ Thu, 21 Jan 2021 14:32:45: Parameters: /opt/anaconda3/bin/mageck mle -k P4.txt -d design_mat_P4_D3.txt -n P4_D3 
+INFO  @ Thu, 21 Jan 2021 14:32:45: Cannot parse design matrix as a string; try to parse it as a file name ... 
+INFO  @ Thu, 21 Jan 2021 14:32:45: Design matrix: 
+INFO  @ Thu, 21 Jan 2021 14:32:45: [[1. 0. 0. 0.] 
+INFO  @ Thu, 21 Jan 2021 14:32:45:  [1. 1. 0. 0.] 
+INFO  @ Thu, 21 Jan 2021 14:32:45:  [1. 0. 1. 0.] 
+INFO  @ Thu, 21 Jan 2021 14:32:45:  [1. 0. 0. 1.]] 
+INFO  @ Thu, 21 Jan 2021 14:32:45: Beta labels:baseline,P4_F2.fq,P4_F3.fq,P4_F4.fq 
+INFO  @ Thu, 21 Jan 2021 14:32:45: Included samples:P4_F1.fq,P4_F2.fq,P4_F3.fq,P4_F4.fq 
+INFO  @ Thu, 21 Jan 2021 14:32:45: Loaded samples:P4_F1.fq;P4_F2.fq;P4_F3.fq;P4_F4.fq 
+INFO  @ Thu, 21 Jan 2021 14:32:45: Sample index: 4;5;6;7 
+INFO  @ Thu, 21 Jan 2021 14:32:45: Loaded 10 genes. 
+DEBUG @ Thu, 21 Jan 2021 14:32:45: Initial (total) size factor: 0.9290706295271718 0.5806010280235894 1.3547310955322838 2.159134406574997 
+DEBUG @ Thu, 21 Jan 2021 14:32:45: Median factor: 0.7985939670493836 0.4791631756042648 1.2843920385768504 2.0297710250381464 
+INFO  @ Thu, 21 Jan 2021 14:32:45: Final size factor: 0.7985939670493836 0.4791631756042648 1.2843920385768504 2.0297710250381464 
+INFO  @ Thu, 21 Jan 2021 14:32:45: size factor: 1.2522007944722702,2.086971726779539,0.7785784791285639,0.4926664080157547 
+INFO  @ Thu, 21 Jan 2021 14:32:46: Thread 0 started. 
+INFO  @ Thu, 21 Jan 2021 14:32:47: Thread 0 completed. 
+INFO  @ Thu, 21 Jan 2021 14:32:47: All threads completed. 
+INFO  @ Thu, 21 Jan 2021 14:32:47: Modeling the mean and variance ... 
+INFO  @ Thu, 21 Jan 2021 14:32:47: Run the algorithm for the second time ... 
+INFO  @ Thu, 21 Jan 2021 14:32:47: Thread 0 started. 
+INFO  @ Thu, 21 Jan 2021 14:32:48: Thread 0 completed. 
+INFO  @ Thu, 21 Jan 2021 14:32:48: All threads completed. 
+INFO  @ Thu, 21 Jan 2021 14:32:48: Permuting groups of gene with 6 sgRNAs per gene. Group progress: 1/2 
+INFO  @ Thu, 21 Jan 2021 14:32:48: Start permuting 2 rounds ... 
+INFO  @ Thu, 21 Jan 2021 14:32:48: Collecting 76 sgRNAs from 10 genes. 
+INFO  @ Thu, 21 Jan 2021 14:32:48: Permuting round 0 ... 
+INFO  @ Thu, 21 Jan 2021 14:32:48: Thread 0 started. 
+INFO  @ Thu, 21 Jan 2021 14:32:49: Thread 0 completed. 
+INFO  @ Thu, 21 Jan 2021 14:32:49: All threads completed. 
+INFO  @ Thu, 21 Jan 2021 14:32:49: Permuting round 1 ... 
+INFO  @ Thu, 21 Jan 2021 14:32:50: Thread 0 started. 
+INFO  @ Thu, 21 Jan 2021 14:32:50: Thread 0 completed. 
+INFO  @ Thu, 21 Jan 2021 14:32:50: All threads completed. 
+INFO  @ Thu, 21 Jan 2021 14:32:50: Assigning p values... 
+INFO  @ Thu, 21 Jan 2021 14:32:50: Permuting groups of gene with 10 sgRNAs per gene. Group progress: 2/2 
+INFO  @ Thu, 21 Jan 2021 14:32:50: Start permuting 2 rounds ... 
+INFO  @ Thu, 21 Jan 2021 14:32:50: Collecting 76 sgRNAs from 10 genes. 
+INFO  @ Thu, 21 Jan 2021 14:32:50: Permuting round 0 ... 
+INFO  @ Thu, 21 Jan 2021 14:32:51: Thread 0 started. 
+INFO  @ Thu, 21 Jan 2021 14:32:52: Thread 0 completed. 
+INFO  @ Thu, 21 Jan 2021 14:32:52: All threads completed. 
+INFO  @ Thu, 21 Jan 2021 14:32:52: Permuting round 1 ... 
+INFO  @ Thu, 21 Jan 2021 14:32:52: Thread 0 started. 
+INFO  @ Thu, 21 Jan 2021 14:32:53: Thread 0 completed. 
+INFO  @ Thu, 21 Jan 2021 14:32:53: All threads completed. 
+INFO  @ Thu, 21 Jan 2021 14:32:53: Assigning p values... 
+INFO  @ Thu, 21 Jan 2021 14:32:53: Writing gene results to P4_D3.gene_summary.txt 
+INFO  @ Thu, 21 Jan 2021 14:32:53: Writing sgRNA results to P4_D3.sgrna_summary.txt 
